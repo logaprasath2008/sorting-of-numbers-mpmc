@@ -9,6 +9,8 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 - Keil µVision software  
 ---
 
+
+
 ## Algorithm(ASCENDING ORDER)
 1. Initialize the register **R7** with count (number of elements).  
 2. Get the first two elements into two registers.  
@@ -20,6 +22,11 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 6. If **R7 ≠ 0**, repeat from Step 2.  
 7. Otherwise, stop the program.  
 ---
+
+## Flowchart
+
+<img width="1199" height="1312" alt="image" src="https://github.com/user-attachments/assets/29cbaa0c-cc6c-4bc8-8113-a762c033b2c7" />
+
 
 ## Program (Ascending order)
 
@@ -60,6 +67,7 @@ END
 
 ---
 
+
 ## Algorithm(Descending order)
 1. Initialize the register **R7** with count.  
 2. Get first two elements in two registers.  
@@ -72,6 +80,12 @@ END
    - If **No**, repeat the process from Step 2.  
    - If **Yes**, stop the program.  
 ---
+
+## Flowchart
+
+<img width="1199" height="1312" alt="image" src="https://github.com/user-attachments/assets/29cbaa0c-cc6c-4bc8-8113-a762c033b2c7" />
+
+
 ## Program (Descending order)
 
 ```asm
